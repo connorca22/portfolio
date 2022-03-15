@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins';
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 30px;
+  min-width: 350px;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+  background: #79ADDC;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  font-family: 'Poppins';
+}
+
+nav .container .logo {
+  font-weight: 700;
+  color: white;
+  font-size: 18px;
+}
+
+nav .container ul {
+  display: flex;
+  list-style: none;
+}
+
+nav .container ul li {
+  margin-left: 8px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+header {
+  background: #FFC09F;
+}
+
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 500px;
+  justify-content: space-around;
+}
+
+header .container > * {
+  margin-top: 14px;
+}
+
+header .container h3 {
+  font-size: 1.4em;
+}
+
+
+header .container img {
+  border-radius: 50%;
+  max-width: 200px;
+}
+
+.skill-cards {
+  background: #FFEE93;
+}
+
+.skill-cards .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-cards .container .skill-card {
+  background: #79ADDC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+.skill-cards .container .skill-card h4 {
+  font-size: 1.4em;
+  padding-top: 15px;
+}
+
+.skill-cards .container .skill-card p {
+  margin: 0px 25px 15px 25px;
+}
+
+.skill-cards .container .skill-card img {
+  max-width: 80%;
+  margin-top: 25px;
+  border-radius: 2px;
+}
+
+.project-cards {
+  background: #ADF7B6;
+}
+
+.project-cards .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-cards .container .project-card {
+  background: #79ADDC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+.project-cards .container .project-card > h3 {
+  font-size: 1.4em;
+  padding-top: 15px;
+}
+
+.project-cards .container .project-card > p {
+  margin: 0px 25px 15px 25px;
+}
+
+.project-cards .container .project-card img {
+  max-width: 70%;
+  border-radius: 3px;
+  margin-top: 25px;
+}
+
+
+
+.contact {
+  background: #FCF5C7;
+}
+
+.contact .container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-height: 200px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact .container button {
+  width: 60%;
+  padding: 8px 0px 8px 0px;
+  background:#79ADDC;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  margin-top: 20px;
+}
+
+.contact .container button a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact .container .links {
+  display: flex;
+  margin-top: 40px;
+}
+
+.contact .container .links a {
+  flex: 1;
+}
+
+.contact .container .links img {
+  max-width: 50%;
+}
+
+footer {
+  background: #FFC09F;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+
+footer .container ul {
+  display: flex;
+  list-style: none;
+}
+
+
+footer .container ul li {
+  margin-left: 5px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+@media screen and (min-width: 700px) {
+
+  nav .container ul li {
+    margin-left: 50px;
+  }
+
+  .skill-cards .container {
+    flex-direction: row;
+  }
+
+  .skill-cards .container .one, .skill-cards .container .two {
+    margin-right: 20px;
+  }
+
+  .project-cards .container {
+    flex-direction: row;
+  }
+
+  .project-cards .container .one, .project-cards .container .two {
+    margin-right: 20px;
+  }
+
+  .contact .container button {
+    width: 40%;
+    margin-top: 35px;
+  }
+
+  .contact .container .links {
+    margin-top: 50px;
+  }
+
+  .contact .container .links img {
+    max-width: 20%;
+  }
+
+  footer .container {
+    font-size: 1em;
+  }
+
+  footer .container ul li {
+    margin-left: 40px;
+  }
+}
+
+
+
+/*# sourceMappingURL=styles.css.map */
