@@ -73,6 +73,11 @@ main {
     background: #FFEE93;
 }
 
+main .container {
+  display: flex;
+  flex-direction: column;
+}
+
 .contact-form {
     background: #79ADDC;
     padding: 15px;
@@ -103,17 +108,48 @@ form > input, textarea {
       padding: 20px;
       margin-top: 20px;
       border-radius: 3px;
+      text-align: center;
   }
 
-.about-section .links {
-    display: flex;
-    justify-content: space-around;
+
+.about-section .open-to {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 10px;
 }
 
-.links img {
-    max-width: 20%;
-    flex: 1;
+.about-section .open-to .open-to-card {
+  background: #FFEE93;
+  width: 40%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
+
+.about-section .open-to .open-to-card i {
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+.about-section .open-to .open-to-card p {
+  font-size: 0.8em;
+  font-weight: bold;
+  line-height: 1.8;
+}
+
+
+.link-section .links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.link-section .links img {
+  width: 18%;
+}
+
 
 
 
@@ -147,3 +183,76 @@ footer {
     color: black;
   }
   
+
+
+  @media screen and (min-width:389px) and (max-width: 449px) {
+    .about-section .open-to .open-to-card {
+      height: 110px;
+    }
+  }
+
+
+  @media screen and (min-width:650px) {
+
+    nav .container ul li {
+      margin-left: 50px;
+    }
+  
+  
+    footer .container {
+      font-size: 1em;
+    }
+  
+    footer .container ul li {
+      margin-left: 40px;
+    }
+  }
+
+
+
+  @media screen and (min-width: 450px) and (max-width: 749px) {
+    .contact-form {
+      padding-left: 15%;
+      padding-right: 15%;
+    }
+
+    .link-section .links img {
+      width: 10%;
+    }
+
+    .open-to-card {
+      height: 100px;
+    }
+
+    .about-section .open-to .open-to-card i {
+      font-size: 2.5em;
+    }
+
+    .about-section .open-to .open-to-card p {
+      font-size: 0.8em;
+    }
+  }
+
+
+  @media screen and (min-width: 750px) {
+    .contact-form {
+      padding-left: 20%;
+      padding-right: 20%;
+    }
+
+    .link-section .links img {
+      width: 7%;
+    }
+
+    .open-to-card {
+      height: 200px;
+    }
+
+    .about-section .open-to .open-to-card i {
+      font-size: 4em;
+    }
+
+    .about-section .open-to .open-to-card p {
+      font-size: 1.3em;
+    }
+  }
