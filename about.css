@@ -102,6 +102,10 @@ header .tablet-h1, .desktop-h1 {
     margin-bottom: 10px;
 }
 
+.bio-cards .container .bio-card p {
+    font-size: 0.8em;;
+}
+
 .skill-cards {
    background: #FFEE93; 
 }
@@ -120,12 +124,16 @@ header .tablet-h1, .desktop-h1 {
 
 .skill-cards .skill-card {
     padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .skill-cards .skill-card h4 {
     font-weight: bold;
     font-size: 1.1em;
     margin-bottom: 13px;
+    flex: 100%;
 }
 
 .skill-cards .skill {
@@ -181,3 +189,64 @@ footer {
     text-decoration: none;
     color: black;
   }
+
+
+  
+  @media screen and (min-width:650px) {
+
+    nav .container ul li {
+      margin-left: 50px;
+    }
+  
+  
+    footer .container {
+      font-size: 1em;
+    }
+  
+    footer .container ul li {
+      margin-left: 40px;
+    }
+  }
+
+
+/* Tablet responsiveness styles */ 
+  @media screen and (min-width: 450px) and (max-width: 749px) {
+
+    .skill-cards .skill-card {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .skill-cards .skill-card .skill {
+        width: 40%;
+    }
+
+    .skill-cards .skill-card .skill p {
+        font-size: 1em;
+    }
+
+  }
+
+/* Desktop responsiveness styles */ 
+  @media screen and (min-width: 750px) {
+    .skill-cards .container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .skill-cards .container .skill-card {
+        width: 30%;
+        height: 400px;
+        justify-content: space-evenly;
+    }
+
+
+    .skill-cards .skill-card h4 {
+        flex: 1;
+        font-size: 1.4em;
+        text-align: center;
+    }
+
+    .skill-cards .skill-card .skill {
+        flex: 2;
+    }
+
