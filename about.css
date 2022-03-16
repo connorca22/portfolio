@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins';
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 30px;
+  min-width: 350px;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+  background: #79ADDC;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  font-family: 'Poppins';
+}
+
+nav .container .logo {
+  font-weight: 700;
+  color: white;
+  font-size: 18px;
+}
+
+nav .container ul {
+  display: flex;
+  list-style: none;
+}
+
+nav .container ul li {
+  margin-left: 8px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+header {
+  background: #FFC09F;
+  text-align: center;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 220px;
+}
+
+header h1 {
+    font-size: 3.3em;
+    color: white;
+     text-shadow: -1px 0 #79ADDC, 0 1px #79ADDC, 1px 0 #79ADDC, 0 -1px #79ADDC;
+}
+
+
+header .container p a {
+    text-decoration: none;
+}
+
+header .tablet-h1, .desktop-h1 {
+    display: none;
+}
+
+
+.bio-cards {
+    background: #FFEE93;
+}
+
+
+.bio-cards .container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.bio-cards .container .bio-card {
+    background: #79ADDC;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+.bio-cards .container .bio-card h4 {
+    margin-bottom: 10px;
+}
+
+.skill-cards {
+   background: #FFEE93; 
+}
+
+.skill-cards .container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+.skill-card.proficient, .skill-card.familiar, .skill-card.tinkering {
+    background: #FFC09F;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.skill-cards .skill-card {
+    padding-top: 15px;
+}
+
+.skill-cards .skill-card h4 {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 13px;
+}
+
+.skill-cards .skill {
+    display: flex;
+    background: #79ADDC;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.skill-cards .skill i {
+    flex: 1;
+    font-size: 2em;
+    text-align: center;
+}
+
+.skill-cards .skill p {
+    flex: 2;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+
+/* Footer Styles */
+
+footer {
+    background: #FFC09F;
+  }
+  
+  footer .container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+    font-weight: bold;
+  }
+  
+  
+  footer .container ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  
+  footer .container ul li {
+    margin-left: 5px;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: black;
+  }
