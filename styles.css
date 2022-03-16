@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
 * {
   margin: 0;
@@ -61,7 +60,7 @@ header .container {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  min-height: 500px;
+  min-height: 400px;
   justify-content: space-around;
 }
 
@@ -69,14 +68,27 @@ header .container > * {
   margin-top: 14px;
 }
 
+header .container h1 {
+  color: white;
+  font-size: 3em;
+  line-height: 1.3;
+  text-shadow: -1px 0 #79ADDC, 0 1px #79ADDC, 1px 0 #79ADDC, 0 -1px #79ADDC;
+}
+
 header .container h3 {
-  font-size: 1.4em;
+  font-size: 1.3em;
+  color: white;
+}
+
+header .container p {
+  font-size: 0.9em;
+  max-width: 80%;
 }
 
 
 header .container img {
   border-radius: 50%;
-  max-width: 200px;
+  max-width: 150px;
 }
 
 .skill-cards {
@@ -111,6 +123,10 @@ header .container img {
   max-width: 80%;
   margin-top: 25px;
   border-radius: 2px;
+}
+
+.skill-cards .container .skill-card.four {
+  display: none;
 }
 
 .project-cards {
@@ -220,23 +236,69 @@ footer a {
 
 
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width:650px) {
 
   nav .container ul li {
     margin-left: 50px;
   }
 
+
+  footer .container {
+    font-size: 1em;
+  }
+
+  footer .container ul li {
+    margin-left: 40px;
+  }
+}
+
+
+@media screen and (min-width: 450px) and (max-width: 749px) {
+
+  .skill-cards .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .skill-cards .container .skill-card {
+    width: 45%;
+  }
+
+  .skill-cards .container .skill-card.four {
+    display: flex;
+  }
+
+  .skill-cards .container .skill-card  {
+    font-size: 0.8em;
+  }
+  
+}
+
+
+
+@media screen and (min-width: 750px) {
+
   .skill-cards .container {
     flex-direction: row;
   }
 
-  .skill-cards .container .one, .skill-cards .container .two {
+  .skill-cards .container .one, .skill-cards .container .two, .skill-cards .container .three {
     margin-right: 20px;
   }
 
   .project-cards .container {
     flex-direction: row;
   }
+
+  .skill-cards .container .skill-card.four {
+    display: flex;
+  }
+
+  .skill-cards .container .skill-card  {
+    font-size: 0.8em;
+  }
+
 
   .project-cards .container .one, .project-cards .container .two {
     margin-right: 20px;
@@ -255,13 +317,7 @@ footer a {
     max-width: 20%;
   }
 
-  footer .container {
-    font-size: 1em;
-  }
 
-  footer .container ul li {
-    margin-left: 40px;
-  }
 }
 
 

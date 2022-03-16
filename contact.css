@@ -66,7 +66,15 @@ header .container {
   }
 
 header .container i {
-    color: #79ADDC;
+    color: white;
+    text-shadow: -1px 0 #79ADDC, 0 1px #79ADDC, 1px 0 #79ADDC, 0 -1px #79ADDC;
+}
+
+header .container h1 {
+  color: white;
+  text-shadow: -1px 0 #79ADDC, 0 1px #79ADDC, 1px 0 #79ADDC, 0 -1px #79ADDC;
+  font-size: 2.2em;
+  margin-bottom: 5px;
 }
 
 main {
@@ -104,7 +112,7 @@ form > input, textarea {
   }
 
   .about-section {
-      background: #79ADDC;
+      background: #FFC09F;
       padding: 20px;
       margin-top: 20px;
       border-radius: 3px;
@@ -120,7 +128,7 @@ form > input, textarea {
 }
 
 .about-section .open-to .open-to-card {
-  background: #FFEE93;
+  background: #79ADDC;
   width: 40%;
   margin-top: 20px;
   display: flex;
@@ -146,11 +154,9 @@ form > input, textarea {
   margin-top: 40px;
 }
 
-.link-section .links img {
+.link-section .links a {
   width: 18%;
 }
-
-
 
 
 
@@ -216,9 +222,8 @@ footer {
       padding-right: 15%;
     }
 
-    .link-section .links img {
+    .link-section .links a {
       width: 10%;
-      height: 10%
     }
 
     .open-to-card {
@@ -231,6 +236,7 @@ footer {
 
     .about-section .open-to .open-to-card p {
       font-size: 0.8em;
+      margin: 10px;
     }
   }
 
@@ -241,20 +247,22 @@ footer {
       padding-right: 20%;
     }
 
-    .link-section .links img {
+    .link-section .links a {
       width: 7%;
-      height: 7%;
     }
 
-    .open-to-card {
-      height: 200px;
+    .about-section .open-to .open-to-card {
+      width: 20%;
+      padding: 15px 0 15px 0;
     }
+    
 
     .about-section .open-to .open-to-card i {
       font-size: 4em;
     }
 
     .about-section .open-to .open-to-card p {
-      font-size: 1.3em;
+      font-size: 1.1em;
+      margin: 10px;
     }
   }
