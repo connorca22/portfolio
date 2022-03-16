@@ -225,6 +225,14 @@ footer {
         font-size: 1em;
     }
 
+    .mobile-h1 {
+        display: none;
+    }
+
+    header .tablet-h1 {
+        display: block;
+    }
+
   }
 
 /* Desktop responsiveness styles */ 
@@ -250,5 +258,27 @@ footer {
         flex: 2;
     }
 
+    .mobile-h1 {
+        display: none;
+    }
 
+    header .desktop-h1 {
+        display: block;
+    }
 
+    header .container {
+        max-width: 60%;
+    }
+
+    .bio-cards .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .bio-cards .container .bio-card {
+        width: 47%;
+    }
+
+  }
