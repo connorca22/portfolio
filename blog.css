@@ -20,6 +20,12 @@
   
   nav {
     background: #79ADDC;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border-bottom: 1px solid navy;
+    z-index: 1;
+  
   }
 
   nav .container {
@@ -54,6 +60,8 @@
   header {
       background: #FFC09F;
       text-align: center;
+      margin-top: 50px;
+
   }
 
   header .container h1 {
