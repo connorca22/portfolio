@@ -4,79 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
+    <title>Connor Roberts Portfolio Website</title>
     <link href="styles.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/bcf2373cad.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    
+    <!--NAV BAR-->
     <nav>
-        <div class="container">
+        <section class="container">
             <div class="logo"><a href="./index.html">hello <i class="fa-solid fa-code"></i></a></div>
             <ul>
                 <li><a href="./about.html">About</a></li>
                 <li><a href="./contact.html">Contact</a></li>
                 <li><a href="./blog.html">Blog</a></li>
             </ul>
-        </div>
+        </section>
     </nav>
 <div></div>
 
+    <!--HEADER-->
     <header>
-        <div class="container">
+        <section class="container">
             <h1>Connor Roberts</h1>
             <img src="images/profile.jpg">
             <h3>Full Stack Developer</h3>
             <p>I love tinkering, drilling, and occasionally hammering difficult software problems. Graduating Coder Academy Brisbane in December 2022. Let me know if you have an opportunity to kick some goals for a company with a strong dev team. </p>
-        </div>
+        </section>
     </header>
 
     <main>
-        <div class="skill-cards">
-        <div class="container">
-            <div class="skill-card one">
-                <img src="images/wizard.png">
-                <h4>Front End Web Wizard</h4>
-                <p>HTML. CSS. Sass. JS. React.</p>
+        <!--SKILLS SECTION-->
+        <section class="skill-cards">
+            <div class="container">
+                <div class="skill-card one">
+                    <img src="images/wizard.png">
+                    <h4>Front End Web Wizard</h4>
+                    <p>HTML. CSS. Sass. JS. React.</p>
+                </div>
+                <div class="skill-card two">
+                    <img src="images/horse.png">
+                    <h4>Back End Web Workhorse </h4>
+                    <p>Ruby. Rails. MERN Stack</p>
+                </div>
+                <div class="skill-card three">
+                    <img src="images/machine.png">
+                    <h4>Marketing Machine</h4>
+                    <p>SEM. SMM. Email. Content. </p>
+                </div>
+                <div class="skill-card four" onclick="location.href='./about.html';" style="cursor: pointer;">
+                    <img src="images/moreme.jpg">
+                    <h4>More About Me</h4>
+                    <p>Bio. Background. Interests. </p>
+                </div>
             </div>
-            <div class="skill-card two">
-                <img src="images/horse.png">
-                <h4>Back End Web Workhorse </h4>
-                <p>Ruby. Rails. MERN Stack</p>
-            </div>
-            <div class="skill-card three">
-                <img src="images/machine.png">
-                <h4>Marketing Machine</h4>
-                <p>SEM. SMM. Email. Content. </p>
-            </div>
-            <div class="skill-card four" onclick="location.href='./about.html';" style="cursor: pointer;">
-                <img src="images/moreme.jpg">
-                <h4>More About Me</h4>
-                <p>Bio. Background. Interests. </p>
-            </div>
-        </div>
-        </div>
+        </section>
 
-        <div class="project-cards">
-        <div class="container">
-            <div class="project-card one">
-                <a href="https://codepen.io/fox-roberts/pen/KxadKe"><img src="images/proj1.png"></a>
-                <h3>Calculater App</h3>
-                <p>Functional calculater made using html, css and javascript.</p>
+        <!--PROJECT SECTION-->
+        <section class="project-cards">
+            <div class="container">
+                <div class="project-card one">
+                    <a href="https://codepen.io/fox-roberts/pen/KxadKe"><img src="images/proj1.png"></a>
+                    <h3>Calculater App</h3>
+                    <p>Functional calculater made using html, css and javascript.</p>
+                </div>
+                <div class="project-card two">
+                    <a href="https://codepen.io/fox-roberts/pen/xQyNJv"><img src="images/proj2.png"></a>
+                    <h3>Password App</h3>
+                    <p>Generate a string of numbers, letters and symbols.</p>
+                </div>
+                <div class="project-card three">
+                    <a href="https://codepen.io/fox-roberts/pen/XPMGzO"><img src="images/proj3.png"></a>
+                    <h3>Stopwatch App</h3>
+                    <p>Stopwatch with start, pause, and reset functionality.</p>
+                </div>
             </div>
-            <div class="project-card two">
-                <a href="https://codepen.io/fox-roberts/pen/xQyNJv"><img src="images/proj2.png"></a>
-                <h3>Password App</h3>
-                <p>Generate a string of numbers, letters and symbols.</p>
-            </div>
-            <div class="project-card three">
-                <a href="https://codepen.io/fox-roberts/pen/XPMGzO"><img src="images/proj3.png"></a>
-                <h3>Stopwatch App</h3>
-                <p>Stopwatch with start, pause, and reset functionality.</p>
-            </div>
-        </div>
-        </div>
+        </section>
 
-        <div class="contact">
+        <!--CONTACT SECTION-->
+        <section class="contact">   
             <div class="container">
                 <h2>Want to connect?</h2>
                 <button><a href="./contact.html">LET'S CHAT</a></button>
@@ -86,17 +92,19 @@
                     <a href="https://www.linkedin.com/in/connor-r-78bb2582/"><img src="images/lilogo.png" alt="linkedin profile link"></a>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
+
+    <!--FOOTER SECTION-->
     <footer>
-        <div class="container">
+        <section class="container">
             <div class="logo">Connor Roberts 2022</div>
             <ul>
                 <li><a href="./about.html">About</a></li>
                 <li><a href="./contact.html">Contact</a></li>
                 <li><a href="./blog.html">Blog</a></li>
             </ul>
-        </div>
+        </section>
     </footer>
 
 

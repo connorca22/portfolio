@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+/* CSS RESET STYLES */ 
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@
     font-family: 'poppins';
   }
 
+  /* Centers container and sets max and min widths*/
   .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -18,6 +20,7 @@
     max-width: 100%;
   }
   
+  /* NAVBAR STYLES */
   nav {
     background: #79ADDC;
     position: fixed;
@@ -57,6 +60,7 @@
     font-weight: bold;
   }
 
+  /*HEADER STYLES*/
   header {
       background: #FFC09F;
       text-align: center;
@@ -71,6 +75,7 @@
     margin-bottom: 5px;
 }
 
+/* BLOG NAV SECTION STYLES */
   .latest-blogs {
       background: #FCF5C7;
   }
@@ -99,7 +104,7 @@
     display: none;
   }
 
-
+/* BLOG POST SECTION STYLES */
   .blogs {
     background: #FFEE93;
   }
@@ -141,6 +146,7 @@
     margin-top: 20px;
   }
 
+  /* FOOTER SECTION STYLES */
   footer {
     background: #FFC09F;
   }
@@ -168,6 +174,7 @@
     color: black;
   }
 
+  /*TABLET & DESKTOP BLOG NAV SECTION STYLES*/
   @media screen and (min-width: 700px) {
 
     nav .container ul li {
@@ -237,6 +244,3 @@ footer .container ul li a {
 }
     
   }
-
-  /* TRYING TO SET LINEAR GRADIENT ON BLOG THUMBNAIL TO MAKE IT DARK TO LIGHT
-  COULD ALSO JUST DARKEN THE IMAGE? MIGHT BE EASIER - GOOGLE */

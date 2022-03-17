@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+/* CSS RESET STYLES */ 
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +12,7 @@ body {
   height: 100%;
 }
 
+/* Centers container and sets max and min widths*/
 .container {
   max-width: 1100px;
   margin: 0 auto;
@@ -22,6 +24,7 @@ img {
   max-width: 100%;
 }
 
+/* NAVBAR STYLES */
 nav {
   background: #79ADDC;
   position: fixed;
@@ -60,6 +63,7 @@ nav a {
   font-weight: bold;
 }
 
+/*HEADER STYLES*/
 
 header {
     background: #FFC09F;
@@ -97,6 +101,7 @@ main .container {
   flex-direction: column;
 }
 
+/* CONTACT FORM SECTION STYLES */
 .contact-form {
     background: #79ADDC;
     padding: 15px;
@@ -123,6 +128,7 @@ form > input, textarea {
     opacity: 0.6; /* Firefox */
   }
 
+  /* ABOUT SECTION STYLES */
   .about-section {
       background: #FFC09F;
       padding: 20px;
@@ -160,6 +166,7 @@ form > input, textarea {
   line-height: 1.8;
 }
 
+/* LINKS SECTION STYLES */
 .link-section {
   margin-bottom: 30px;
 }
@@ -176,7 +183,7 @@ form > input, textarea {
 
 
 
-/* Footer Styles */
+/*FOOTER SECTION STYLES*/
 
 footer {
     background: #FFC09F;
@@ -206,14 +213,14 @@ footer {
   }
   
 
-
+/*FIXES ISSUE WITH OPEN TO CARDS WRAPPING CLUNKILY */
   @media screen and (min-width:389px) and (max-width: 449px) {
     .about-section .open-to .open-to-card {
       height: 110px;
     }
   }
 
-
+/*NAV ELEMENT RESIZE ABOVE 650PX */
   @media screen and (min-width:650px) {
 
     nav .container ul li {
@@ -231,8 +238,8 @@ footer {
   }
 
 
-
-  @media screen and (min-width: 450px) and (max-width: 749px) {
+/*SMALL - MEDIUM TABLET STYLES */
+@media screen and (min-width: 450px) and (max-width: 749px) {
     .contact-form {
       padding-left: 15%;
       padding-right: 15%;
@@ -256,7 +263,7 @@ footer {
     }
   }
 
-
+/*LARGE TABLET AND DESKTOP STYLES*/
   @media screen and (min-width: 750px) {
     .contact-form {
       padding-left: 20%;
