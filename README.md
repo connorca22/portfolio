@@ -29,19 +29,19 @@ The target audience for the website is potential employers and recruiters in the
 To build this portfolio website I utilised html and css - within CSS I used flexbox and media queries to ensure a responsive design. I utilised git for version control, and github as a remote repository. Netlify was linked to the Github project in order to deploy the site. 
 
 ### Sitemap
-![sitemap](images/portfoliositemap.png)
+![sitemap](docs/portfoliositemap.png)
 
 
 ## Web Page Screenshots
 
 ### Home Page
-![homepage screenshot](images/homepagescreenshot.png)
+![homepage screenshot](docs/homepagescreenshot.png)
 
 ### About Page
-![homepage screenshot](images/aboutpagescreenshot.png)
+![homepage screenshot](docs/aboutpagescreenshot.png)
 
 ### Contact Page
-![homepage screenshot](images/contactpagescreenshot.png)
+![homepage screenshot](docs/contactpagescreenshot.png)
 
 ### Blog Page 
 ![homepage screenshot](images/blogpagescreenshot.png)

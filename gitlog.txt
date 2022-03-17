@@ -1,0 +1,137 @@
+commit 71328131c1a629acab8c2ea6f6ef56f7f3dfa44e
+Author: Connor <10349@coderacademy.edu.au>
+Date:   Thu Mar 17 23:11:24 2022 +1000
+
+    updated md file
+
+commit 75b559c85e461532086204ff59e859dcd4aace8a
+Author: Connor <10349@coderacademy.edu.au>
+Date:   Thu Mar 17 23:09:46 2022 +1000
+
+    updated spelling error
+
+commit efc64f6df470ac6185a6a63281225d6e240d8fbb
+Author: Connor <10349@coderacademy.edu.au>
+Date:   Thu Mar 17 23:05:48 2022 +1000
+
+    updated md file links syntax
+
+commit 0a48f214d1882212f8c4ddb0daf13fc8b798cffc
+Author: Connor <10349@coderacademy.edu.au>
+Date:   Thu Mar 17 23:04:06 2022 +1000
+
+    updated readme file and added page screenshots and sitemap image to link to from md file
+
+commit 64f54ccddc3fa6027096427686c6fe9e088d2970
+Author: Connor <10349@coderacademy.edu.au>
+Date:   Thu Mar 17 22:30:11 2022 +1000
+
+    started readme file
+
+commit d56f721f98847b47f2779450579ca540a2585fc9
+Author: Connor <10349@coderacademy.edu.au>
+Date:   Thu Mar 17 21:48:33 2022 +1000
+
+    added text content to about me section on about page
+
+commit 2680f3d6fbfb6467e81c538a9cf717dbaf3cfa6a
+Author: Connor <10349@coderacademy.edu.au>
+Date:   Thu Mar 17 20:56:40 2022 +1000
+
+    commented all html and css files and added more semantic tags
+
+commit 128ca0fe2d758be5d4965b88c8b9397ed8378724
+Author: Connor <10349@coderacademy.edu.au>
+Date:   Wed Mar 16 17:38:45 2022 +1000
+
+    added sticky nav to all pages
+
+commit 361ebdc7d6e25077417c35298389df937dec930a
+Author: Connor <10349@coderacademy.edu.au>
+Date:   Wed Mar 16 17:11:15 2022 +1000
+
+    tried to make contact page display a viewport height of 100% by adding a bunch of margin and padding in between sections. Failed.
+
+commit 14fbf0adec0962903b8e92b60ff4f65b909c27ad
+Author: Connor <10349@coderacademy.edu.au>
+Date:   Wed Mar 16 17:01:17 2022 +1000
+
+    added mail icon to contact page and updated html syntax to make icons link
+
+commit 4d961b620c0620bff2fb5a7664d9ad878a9bb68a
+Author: Connor <10349@coderacademy.edu.au>
+Date:   Wed Mar 16 14:08:10 2022 +1000
+
+    updated about page
+
+commit ec22744afdffcd0980f28a697c48fa81ddb21e12
+Author: Connor <10349@coderacademy.edu.au>
+Date:   Wed Mar 16 13:32:02 2022 +1000
+
+    fixed resume link
+
+commit ad37080e1d6b986c6be56aa87fe3817d1477b566
+Author: Connor <10349@coderacademy.edu.au>
+Date:   Wed Mar 16 13:27:24 2022 +1000
+
+    added resume pdf link to about page
+
+commit ec1a0e64fab06a2f323ce3014c84a868ea3f3c37
+Author: Connor <10349@coderacademy.edu.au>
+Date:   Wed Mar 16 12:28:31 2022 +1000
+
+    made about page responsive across tablet and desktop
+
+commit 661f543db2d1b842a61c1a3e4dc767c508fb9d5d
+Author: Connor <10349@coderacademy.edu.au>
+Date:   Wed Mar 16 10:56:52 2022 +1000
+
+    mobile version of about page finalised.
+
+commit 229a54dad25ba5f1ec9bc6ebec420aa0b843a5a7
+Author: Connor <10349@coderacademy.edu.au>
+Date:   Tue Mar 15 18:26:14 2022 +1000
+
+    fixed issue with images on tablet
+
+commit 040f9eac75c2f0d840b8c3e03d2c0f533e724557
+Author: Connor <10349@coderacademy.edu.au>
+Date:   Tue Mar 15 18:18:19 2022 +1000
+
+    made contact page responsive
+
+commit af4af85923b045e5e53f3ea5344856da4032f0c7
+Author: Connor <10349@coderacademy.edu.au>
+Date:   Tue Mar 15 15:15:03 2022 +1000
+
+    updated home button to make link functional on deployed site
+
+commit e59a19be2e763003869c54b4e26f4292e1f6dc18
+Author: Connor <10349@coderacademy.edu.au>
+Date:   Tue Mar 15 15:12:14 2022 +1000
+
+    updated all nav links to make them functional on netlify
+
+commit a2b7d00d1e0750b77fac20655a7fefdee7eefc16
+Author: Connor <10349@coderacademy.edu.au>
+Date:   Tue Mar 15 14:59:55 2022 +1000
+
+    updated nav <a> tags href syntax to allow navigation in netlify
+
+commit 6961b9ca6e68bd1b5b2b974b1eecfe23fa8d25cc
+Author: Connor <10349@coderacademy.edu.au>
+Date:   Tue Mar 15 14:48:05 2022 +1000
+
+    completed mob and desk layouts for about page and blog. Began contact page
+
+commit df0c3ad36c7b9b5a18b23537c4c3e3c266404710
+Author: Connor <10349@coderacademy.edu.au>
+Date:   Mon Mar 7 13:07:48 2022 +1000
+
+    added about page html and css
+
+commit 17eeaae7cf0b3799bce45dddb8a659587f85c244
+Author: Connor <10349@coderacademy.edu.au>
+Date:   Mon Mar 7 12:54:15 2022 +1000
+
+    initial commit
