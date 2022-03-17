@@ -44,4 +44,4 @@ To build this portfolio website I utilised html and css - within CSS I used flex
 ![homepage screenshot](docs/contactpagescreenshot.png)
 
 ### Blog Page 
-![homepage screenshot](images/blogpagescreenshot.png)
+![homepage screenshot](docs/blogpagescreenshot.png)
