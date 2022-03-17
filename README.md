@@ -26,7 +26,7 @@ The website utilises flexbox and media breakpoints to be fully responsive. In te
 The target audience for the website is potential employers and recruiters in the web development space. 
 
 ### Tech Stack 
-To build this portfolio website I utilised html and css. I utilised git for version control, and github as a remote repository. Netlify was linked to the Github project in order to deploy the site. 
+To build this portfolio website I utilised html and css - within CSS I used flexbox and media queries to ensure a responsive design. I utilised git for version control, and github as a remote repository. Netlify was linked to the Github project in order to deploy the site. 
 
 ### Sitemap
 ![sitemap](images/portfoliositemap.png)
